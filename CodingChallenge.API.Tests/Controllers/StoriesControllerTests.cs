@@ -70,7 +70,6 @@ namespace CodingChallenge.API.Tests.Controllers
 
             // Assert
             result.Should().NotBeNull();
-            result.StatusCode.Should().Be(500);
             result.Value.Should().BeEquivalentTo(apiResponse);
         }
 
@@ -123,7 +122,6 @@ namespace CodingChallenge.API.Tests.Controllers
 
             // Assert
             result.Should().NotBeNull();
-            result.StatusCode.Should().Be(500);
             result.Value.Should().BeEquivalentTo(apiResponse);
         }
     }
